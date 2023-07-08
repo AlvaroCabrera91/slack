@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+}
+
+
+/*header*/
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #541554;
+    height: 80px;
+    list-style: none;
+    align-items: center;
+    padding: 0px 30px;
+    
+}
+
+.imgLogo{
+    width: 100px;;
+}
+
+.imgLogo2{
+    color: white;
+    filter: invert(100%);
+}
+
+/*body*/
+
+/* seccion 1 */
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: -1.5px;
+    padding: 15px 0px;
+}
+
+.h1yellow{
+    color: #ecb22e;
+    font-size: 3rem;
+}
+
+.seccionUno{
+    background-color: #541554;
+    padding: 0px 10px;
+}
+
+.seccionUno p{
+    color: #fff;
+    line-height: 1.444;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+/* botones */
+
+.seccionBotones{
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.boton,
+.boton2{
+    width: 95%;
+    margin: 3px 0px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.boton{
+    background-color: #fff;
+    color: #611f69;
+}
+
+.boton2{
+    background-color: #4285f4;
+    color: #fff;
+
+}
+
+
+/* seccion 2 */
