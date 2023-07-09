@@ -2,11 +2,17 @@
     padding: 0px;
     margin: 0px;
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-    text-align: center;
+    
 }
 
 
 /*header*/
+
+.seccionUno,
+.seccionDos{
+    background-color: #541554;
+    text-align: center;
+}
 .header ul{
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +68,7 @@ h1{
 .seccionBotones{
     padding-bottom: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 .boton,
@@ -71,6 +78,7 @@ h1{
     height: 50px;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
 
 }
 .boton{
@@ -84,5 +92,387 @@ h1{
 
 }
 
-
 /* seccion 2 */
+
+.seccionTres{
+    background-color: #F4EDE4;
+    padding: 30px;
+}
+.seccionTres p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.logos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+}
+
+.logos li{
+    text-align: center;
+}
+
+.img{
+    background-color: #F4EDE4;
+}
+
+/* seccionCuatro, seccionCinco y seccionSeis*/
+
+.seccionCuatroB,
+.seccionCincoB,
+.seccionSeisB{
+    padding: 20px;
+    background-color: #F4EDE4;
+    text-underline-offset: none;
+}
+
+.seccionCuatro .img,
+.seccionSeis .img{
+    text-align: left;
+}
+
+.seccionCuatroB h2,
+.seccionCincoB h2,
+.seccionSeisB h2{
+    padding-bottom: 20px;
+    font-size: 29px;
+}
+
+.seccionCuatroB p,
+.seccionCincoB p,
+.seccionSeisB p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.seccionCuatroB a,
+.seccionCincoB a,
+.seccionSeis a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.seccionCinco .img{
+    text-align: right;
+}
+
+.seccionSeis{
+    padding-bottom: 30px;
+}
+
+/* seccionSiete*/
+
+.seccionSiete{
+    padding: 0px 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.seccionSiete h2{
+    font-size: 29px;
+}
+
+.seccionSiete p{
+    line-height: 1.444;
+    letter-spacing: -0.2px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.boton3,
+.boton4{
+    width: 95%;
+    margin: 3px 0px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 0px;
+
+}
+.priboton{
+    padding-bottom: 10px;
+}
+
+.boton3{
+    background-color: #611f69;
+    color: #fff;
+}
+
+.boton4{
+    background-color: #fff;
+    color: #611f69;
+    fill: #611f69;
+    box-shadow: inset 0 0 0 1px #611f69;
+}
+
+
+/* seccion ocho*/
+
+.seccionOcho{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.seccionOcho ul{
+    text-align: center;
+    width: 195px;
+    margin: auto auto 50px auto;    
+    list-style: none;
+}
+
+.porcentaje{
+    font-size: 50px;
+    color: #611f69;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.porcentajeText{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.videovodafone{
+    border-radius: 0;
+    clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+    width: 95%;
+    height: 210px;
+}
+
+/* seccionNueve*/
+
+.seccionNueve{
+    margin: auto;
+    width: 90%;
+}
+
+.cursiva{
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 19px;
+}
+.negrita{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.puesto{
+    width: 80%;
+    margin-bottom: 20px;
+    
+    line-height: 1.5;
+}
+.seccionNueve a{
+    color: #1264a3;
+}
+.seccionNueve img{
+    width: 12px;
+}
+
+.promedio{
+    color: #696969;
+    margin: 50px 0px;
+    line-height: 1.2857;
+    font-size: 13.5px;
+    text-align: center;
+}
+
+/* */
+
+.seccionDiez{
+    background-color: #F4EDE4;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.seccionDiez h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.tarjeta{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.tarjeta img{
+    padding: 15px 0px;
+}
+
+.seccionDiez a{
+    color: #1264a3;
+}
+.seccionDiez .imgflecha{
+    width: 12px;
+    padding: 0px;
+}
+
+.textoimg{
+    text-align: left;
+    padding-left: 15px;
+}
+
+ .textImg1{
+    font-size: 13px;
+ }
+
+ .textImg2{
+    font-size: 23px;
+    line-height: 30px;
+    margin: 15px 0px 35px 0px;
+    font-weight: bold;
+ }
+
+ .punto{
+    width: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: -4px;
+ }
+
+ .puntoc{
+    width: 30px;
+ }
+
+ .puntos{
+    margin: 30px;
+ }
+
+ /* footer*/
+
+ .botonesFooter{
+    background-color: #611f69;
+    color: white;
+    text-align: center;
+    clip-path: ellipse(105% 100% at center top);
+    height: auto;
+    padding-top: 5rem;
+    min-height: 350px;
+ }
+
+ .botonesFooter h3{
+    font-size: 29px;
+    padding-bottom: 20px;
+ }
+
+.boton5,
+.boton6{
+    width: 95%;
+    margin: 3px 0px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 0px;
+
+}
+.priboton{
+    padding-bottom: 10px;
+}
+
+.boton5{
+    background-color: #fff;
+    color:  #611f69;
+}
+
+.boton6{
+    background-color: #611f69;
+    color:  #fff;
+    fill: #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+}
+
+.icoslack{
+    width: 15%;
+    padding: 40px 0px 30px 20px;
+}
+
+.preguntas{
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+}
+.preguntas ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    line-height: 35px;
+}
+
+.textoFinal{
+    width: 90%;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    border-top: 1px #541554;
+    padding-bottom: 20px;
+}
+
+.textoFinal ul{
+    list-style: none;
+    margin: auto;
+    line-height: 45px;
+}
+
+.blue{
+    color: #1264a3;
+}
+
+
+.textoFinal img{
+    width: 18px;
+    top: 2px;
+}
+
+.flechaAbajo{
+    width: 10px;
+}
+
+
+.icoSocial{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.icoSocial ul{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.iconoSocial{
+    width: 20px;
+}
+
+.final{
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
