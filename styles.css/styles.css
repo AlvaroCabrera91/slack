@@ -343,14 +343,11 @@ h1{
  }
 
  .punto{
-    width: 20px;
-    padding-right: 5px;
-    position: relative;
-    top: -4px;
+    width: 22px;
  }
 
  .puntoc{
-    width: 30px;
+    width: 20px;
  }
 
  .puntos{

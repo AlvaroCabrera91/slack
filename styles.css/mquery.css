@@ -1,0 +1,20 @@
+@media (min-width: 750px) {
+    .textoEImagen{
+        display: flex;
+        justify-content: space-between;
+    }
+ 
+    .seccionTres p{
+        font-size: 13px;
+    }
+
+    .seccionCuatro, .seccionCinco, .seccionSeis{
+        display: flex;
+        justify-content: space-between;
+    }
+    .seccionCuatroB, .seccionCuatro img,
+    .seccionCincoB, .seccionCinco img,
+    .seccionSeisB, .seccionSeis img{
+        width: 50%;
+    }
+}
